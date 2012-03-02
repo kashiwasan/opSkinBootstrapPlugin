@@ -315,7 +315,7 @@ pre {
 #LayoutB,
 #LayoutC {
   float: left;
-  width: 770px;
+  width: 720px;
 }
 
 #LayoutA #Left {
@@ -325,7 +325,7 @@ pre {
 
 #LayoutA #Center {
   float: right;
-  width: 490px;
+  width: 440px;
 }
 
 #LayoutA #Bottom {
@@ -339,7 +339,7 @@ pre {
 
 #LayoutB #Center {
   float: right;
-  width: 590px;
+  width: 540px;
 }
 
 #LayoutB #Bottom {
@@ -347,7 +347,7 @@ pre {
 }
 
 #LayoutC #Center {
-  width: 770px;
+  width: 650px;
   margin: 0 auto;
 }
 
@@ -364,7 +364,7 @@ pre {
 
 #sideBanner {
   float: right;
-  width: 180px;
+  width: 225px;
 }
 
 #Footer {
