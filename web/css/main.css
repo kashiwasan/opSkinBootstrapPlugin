@@ -127,6 +127,20 @@ a:hover, a:active {
   color: #005580;
 }
 
+input[type='text'], input[type='password'], .input_text {
+  display: inline-block;
+  padding: 1px;
+  height: 18px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
 .input_text,
 .input_password,
 textarea {
@@ -178,6 +192,78 @@ div.parts td {
   border-width: 1px 0 0 1px;
   border-style: solid;
   border-color: #CCCCCC;
+}
+
+div.parts .form table {
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.form table th, .form table td { 
+  padding: 8px; 
+  line-height: 18px;
+  text-align: left;
+  vertical-align: top; 
+  border-top: 1px solid #ddd;
+}
+.form table th { 
+  font-weight: bold;
+}
+.form table thead th { 
+  vertical-align: bottom;
+}
+.form table thead:first-child tr th, .form table thead:first-child tr td {
+  border-top: 0;
+}
+.form table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.form table th, .form table td {
+  padding: 4px 5px;
+}
+.form table {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  *border-collapse: collapsed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.form table th + th,
+.form table td + td,
+.form table th + td,
+.form table td + th {
+  border-left: 1px solid #ddd;
+}
+.form table thead:first-child tr:first-child th, .form table tbody:first-child tr:first-child th, .form table tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+.form table thead:first-child tr:first-child th:first-child, .form table tbody:first-child tr:first-child td:first-child {
+  -webkit-border-radius: 4px 0 0 0;
+  -moz-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+.form table thead:first-child tr:first-child th:last-child, .form table tbody:first-child tr:first-child td:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
+}
+.form table thead:last-child tr:last-child th:first-child, .form table tbody:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+}
+.form table thead:last-child tr:last-child th:last-child, .form table tbody:last-child tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+}
+.form table tbody tr:nth-child(odd) td, .form table tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
 }
 
 /*----------------------------------------------
@@ -257,7 +343,7 @@ pre {
 #LayoutB,
 #LayoutC {
   float: left;
-  width: 720px;
+  width: 765px;
 }
 
 #LayoutA #Left {
@@ -267,7 +353,7 @@ pre {
 
 #LayoutA #Center {
   float: right;
-  width: 440px;
+  width: 485px;
 }
 
 #LayoutA #Bottom {
@@ -281,7 +367,7 @@ pre {
 
 #LayoutB #Center {
   float: right;
-  width: 540px;
+  width: 585px;
 }
 
 #LayoutB #Bottom {
@@ -289,7 +375,7 @@ pre {
 }
 
 #LayoutC #Center {
-  width: 720px;
+  width: 765px;
   margin: 0 auto;
 }
 
@@ -306,7 +392,7 @@ pre {
 
 #sideBanner {
   float: right;
-  width: 225px;
+  width: 180px;
 }
 
 #Footer {
