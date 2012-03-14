@@ -324,7 +324,7 @@ pre {
  * Base Layout
  *--------------------------------------------*/
 #Container {
-  min-width: 950px;
+  min-width: 975px;
   background: #F1F1F1;
 }
 
@@ -332,7 +332,7 @@ pre {
 #ContentsContainer,
 #FooterContainer {
   margin: 0 auto;
-  width: 950px;
+  width: 975px;
 }
 
 #ContentsContainer {
@@ -343,7 +343,7 @@ pre {
 #LayoutB,
 #LayoutC {
   float: left;
-  width: 765px;
+  width: 810px;
 }
 
 #LayoutA #Left {
@@ -353,7 +353,7 @@ pre {
 
 #LayoutA #Center {
   float: right;
-  width: 485px;
+  width: 530px;
 }
 
 #LayoutA #Bottom {
@@ -367,7 +367,7 @@ pre {
 
 #LayoutB #Center {
   float: right;
-  width: 585px;
+  width: 630px;
 }
 
 #LayoutB #Bottom {
@@ -375,7 +375,7 @@ pre {
 }
 
 #LayoutC #Center {
-  width: 765px;
+  width: 810px;
   margin: 0 auto;
 }
 
@@ -392,7 +392,7 @@ pre {
 
 #sideBanner {
   float: right;
-  width: 180px;
+  width: 160px;
 }
 
 #Footer {
