@@ -1,2 +1,3 @@
 default:
-  stylesheets:    [/opSkinBootstrapPlugin/css/main.css]
+  stylesheets:    [/opSkinBootstrapPlugin/css/bootstrap.css, /opSkinBootstrapPlugin/css/main.css]
+  javascripts:    [jquery.min.js, /opSkinBootstrapPlugin/js/bootstrap-dropdown.js]
