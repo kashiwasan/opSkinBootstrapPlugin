@@ -114,7 +114,7 @@ select {
 }
 
 a:link {
-  color: #0088cc;
+  color: #33B5E5;
 }
 
 a:focus {
@@ -130,9 +130,7 @@ a:hover, a:active {
 input[type='text'], input[type='password'], .input_text {
   display: inline-block;
   padding: 1px;
-  height: 18px;
   font-size: 13px;
-  line-height: 18px;
   color: #555;
   border: 1px solid #CCC;
   -webkit-border-radius: 3px;
@@ -295,8 +293,9 @@ div#LayoutA,
 div#LayoutB,
 div#LayoutC {
   zoom: 1;
-  overflow: hidden;
+  overflow: visible;
   overflow: -moz-scrollbars-none;
+  padding-top: 10px;
 }
 
 #Left,
@@ -312,6 +311,10 @@ fieldset, label {
   overflow: hidden;
 }
 
+ul.nav, .dropdown ul, ul.dropdown-menu, .dropdown-menu li {
+  overflow: visible;
+}
+
 dd div div {
   overflow: visible;
 }
@@ -325,7 +328,7 @@ pre {
  *--------------------------------------------*/
 #Container {
   min-width: 975px;
-  background: #F1F1F1;
+  background: #EDF7FF;
 }
 
 #HeaderContainer,
@@ -393,6 +396,7 @@ pre {
 #sideBanner {
   float: right;
   width: 160px;
+  padding-top: 10px;
 }
 
 #Footer {
@@ -408,15 +412,15 @@ pre {
   height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #3F9FD9;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#369BD7), color-stop(90%, #369BD7), to(#61B0DF));
-  background-image: -webkit-linear-gradient(#369BD7, #369BD7 90%, #61B0DF);
-  background-image: -moz-linear-gradient(top, #369BD7, #369BD7 90%, #61B0DF);
-  background-image: -ms-linear-gradient(#369BD7, #369BD7 90%, #61B0DF);
-  background-image: -o-linear-gradient(#369BD7, #369BD7 90%, #61B0DF);
-  background-image: linear-gradient(#369BD7, #369BD7 90%, #61B0DF);
+  background-color: #5DADF5;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5DADF5), color-stop(90%, #5DADF5), to(#6180DF));
+  background-image: -webkit-linear-gradient(#5DADF5, #5DADF5 90%, #61B0DF);
+  background-image: -moz-linear-gradient(top, #5DADF5, #5DADF5 90%, #61B0DF);
+  background-image: -ms-linear-gradient(#5DADF5, #5DADF5 90%, #61B0DF);
+  background-image: -o-linear-gradient(#5DADF5, #5DADF5 90%, #61B0DF);
+  background-image: linear-gradient(#5DADF5, #5DADF5 90%, #61B0DF);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#369bd7', endColorstr='#61b0df', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5DADF5', endColorstr='#61b0df', GradientType=0);
   /*
   background-color: #2c2c2c;
   background-image: -moz-linear-gradient(top, #333333, #222222);
@@ -732,6 +736,7 @@ pre {
   -webkit-box-shadow: inset 0 1px 0 #ffffff;
   -moz-box-shadow: inset 0 1px 0 #ffffff;
   box-shadow: inset 0 1px 0 #fff;
+  display: none;
 }
 
 #localNav ul {
@@ -813,7 +818,7 @@ pre {
  * Contents
  *--------------------------------------------*/
 #Contents {
-  background: #F1F1F1;
+  background: #EDF7FF;
 }
 
 /*----------------------------------------------
@@ -864,7 +869,7 @@ div.partsHeading {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background-color: #EDEBE1;
+  background-color: #6297CC;
   /*
   background-image: -moz-linear-gradient(top, white, whiteSmoke);
   background-image: -ms-linear-gradient(top, white, whiteSmoke);
@@ -875,7 +880,7 @@ div.partsHeading {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
   */
-  border: 1px solid #E0D9CB;
+  border: 1px solid #6297CC;
   -webkit-border-radius: 3px; 
   -moz-border-radius: 3px; 
   border-radius: 3px; 
@@ -886,7 +891,7 @@ div.partsHeading {
   */
   font-size: 100%;
   text-align: left;
-  color: #817B5B;
+  color: #FFFFFF;
 }
 
 div.partsHeading a {
@@ -1269,7 +1274,7 @@ div.operation ul.moreInfo li {
 .memberImageBox {
   margin-bottom: 10px;
   padding: 7px;
-  background-color: #f5f5f5;
+  background-color: #DFEAF7;
   border: 1px solid #eee;
   border: 1px solid rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 4px;
@@ -1283,7 +1288,7 @@ div.operation ul.moreInfo li {
 .memberImageBox p.photo {
   padding: 7px;
   border: 1px solid #CCCCCC;
-  background-color: #FFFFFF;
+  background-color: #F2F8FF;
 }
 
 .memberImageBox p.friendLink {
